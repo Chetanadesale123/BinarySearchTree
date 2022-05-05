@@ -11,7 +11,7 @@ class Program
         binarysearch.Insert(70);
         binarysearch.Insert(22);
         binarysearch.Insert(40);
-;       binarysearch.Insert(60);
+        binarysearch.Insert(60);
         binarysearch.Insert(95);
         binarysearch.Insert(11);
         binarysearch.Insert(65);
@@ -21,6 +21,8 @@ class Program
         binarysearch.Insert(67);
         binarysearch.Display();
         binarysearch.GetSize();
+        bool result = binarysearch.IfExists(67, binarysearch);
+        Console.WriteLine(result);
 
     }
 }
